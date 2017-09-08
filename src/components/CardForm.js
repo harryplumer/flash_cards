@@ -30,7 +30,7 @@ class CardForm extends React.Component{
         onChange={this.handleChange}
         placeholder="Add the answer" 
       />
-      <input type="submit" value="Add Card" />
+      <input className="btn small_button" type="submit" value="Add Card" />
     </form>
 
     )

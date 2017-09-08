@@ -1,10 +1,12 @@
 import React from 'react'
 
 const CardButtonList = ({id, onFlip, onEdit, onDelete}) => {
-  return ( <div>
-    <span onClick={() => onFlip()}>Flip</span>
-    <span onClick={() => onEdit()}>Edit</span>
-    <span onClick={() => onDelete(id)}>Delete</span>
+  return ( <div className="card-action">
+      <ul>
+    <li className="btn small_button" onClick={() => onFlip()}>Flip</li>
+    <li className="btn small_button" onClick={() => onEdit()}>Edit</li>
+    <li className="btn small_button" onClick={() => onDelete(id)}>Delete</li>
+    </ul>
   </div> )
 }
 

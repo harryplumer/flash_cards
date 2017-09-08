@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import FlashCardApp from './components/FlashCardApp'
-
+ 
 class App extends Component {
   render() {
     return (
@@ -11,7 +11,9 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <h2>Flash Cards</h2>
         </div>
+        <div className="container">
         <FlashCardApp />
+        </div>
       </div>
     );
   }

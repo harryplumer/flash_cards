@@ -36,7 +36,11 @@ class FlashCardApp extends React.Component {
   render(){
     return(
       <div>
-        <CardForm addCard={this.addCard} />
+        <div className="row">
+          <div className="col s6 push-s3">
+          <CardForm addCard={this.addCard} />
+          </div>
+        </div>
         <CardList 
           cards={this.state.cards}
           deleteCard={this.deleteCard} 

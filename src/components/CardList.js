@@ -14,7 +14,7 @@ class CardList extends React.Component{
     });
 
     return (
-      <div>
+      <div className="row">
         {cards}  
       </div>
     )

@@ -27,7 +27,7 @@ class EditCardForm extends React.Component{
         value={this.state.answer}
         onChange={this.handleChange} 
       />
-      <input type="submit" value="Save Card" />
+      <input className="btn small_button" type="submit" value="Save Card" />
     </form>
 
     )
